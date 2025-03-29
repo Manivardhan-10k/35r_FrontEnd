@@ -1,0 +1,92 @@
+units 
+box model 
+borders 
+table
+
+box model:
+it is the visual representation of the styling properties element
+
+content:
+
+padding:
+
+border:
+
+margin:
+
+
+
+border:
+short hand notation 
+width 
+style 
+color 
+
+
+border: width style color 
+
+
+top
+right
+bottom
+left 
+
+
+top-left
+top-right
+bottom-right
+bottom-left 
+
+
+
+border-margin : top right bottom left 
+border-padding : top/bottom  right/left
+    
+
+colors:
+name
+
+rgb a()
+ranges from 0-255
+red 
+green 
+
+blue
+
+alpha 
+it represents the transparency of color
+
+
+
+
+Hexadecimal values:
+0-9  
+a-f
+
+
+0-255
+256 
+
+255
+16 
+
+15 
+
+
+HSL:
+hue --color
+saturation  -- strength of the color
+lighting
+
+
+
+
+block 
+inline
+display:
+
+
+flex 
+flex box 
+grid
+

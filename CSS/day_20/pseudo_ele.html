@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* p::before{
+            content: "HI";
+            color:blue
+        /* } */
+
+        /* p::after{
+            content:"everyone"
+        }  */
+
+        p::first-letter{
+            font-size: 50px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        p::first-line{
+            text-decoration:line-through ;
+        }
+
+        #p1::selection{
+            background-color: chartreuse;
+        }
+        .p2::selection{
+            background-color: rgb(230, 146, 29);
+        }
+        input::placeholder{
+            color:brown;
+            font-style: italic;
+        }
+        li::marker {
+    content: url("drop-down-arrow.png");
+    display: inline-block;
+    transform: scale(0.5); /* Adjust size */
+    vertical-align: middle;
+    height:50px;
+    width:50px
+}
+
+    </style>
+</head>
+<body>
+
+<div>
+    <ol>
+        <li>litsitem1</li>
+        <li>litsitem2</li>
+        <li>litsitem3</li>
+        <li>litsitem4</li>
+        <li>litsitem5</li>
+        <li>litsitem6</li>
+        <li>litsitem7</li>
+        <li>litsitem8</li>
+        <li>litsitem9</li>
+        <li>litsitem10</li>
+    </ol>
+</div>
+    <p id="p1">
+       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, vel impedit voluptatibus sunt nihil quisquam quibusdam sit asperiores minima eos inventore culpa aspernatur a error ipsa accusamus nesciunt, odit maiores.
+       Debitis aut et sunt cupiditate, officia labore saepe odio voluptates incidunt vero architecto, enim id consequatur voluptatum, quo ducimus necessitatibus dignissimos. Dolores autem tempora eos tempore modi iste nemo sint!
+       Quam impedit quae animi. Suscipit quos id officia eos iste voluptate, dolor quia doloremque blanditiis facere eveniet quae, tempore atque! Corrupti esse iusto cum excepturi dolorem illo error, quibusdam consectetur?
+       Eaque ea vero sunt laudantium harum quasi facere rerum aut dolor earum, et pariatur, obcaecati consequuntur quibusdam repellat modi praesentium dolore sapiente tempora aliquam eveniet vel? Eos voluptate recusandae veritatis.
+       Consectetur id quod ipsum non architecto earum vitae ea amet, atque aliquid. Soluta impedit consequatur ipsum minima cupiditate sint, doloribus enim est. Accusamus alias ad quo illo modi laborum optio.
+    </p>
+    <p class="p2">
+       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, vel impedit voluptatibus sunt nihil quisquam quibusdam sit asperiores minima eos inventore culpa aspernatur a error ipsa accusamus nesciunt, odit maiores.
+       Debitis aut et sunt cupiditate, officia labore saepe odio voluptates incidunt vero architecto, enim id consequatur voluptatum, quo ducimus necessitatibus dignissimos. Dolores autem tempora eos tempore modi iste nemo sint!
+       Quam impedit quae animi. Suscipit quos id officia eos iste voluptate, dolor quia doloremque blanditiis facere eveniet quae, tempore atque! Corrupti esse iusto cum excepturi dolorem illo error, quibusdam consectetur?
+       Eaque ea vero sunt laudantium harum quasi facere rerum aut dolor earum, et pariatur, obcaecati consequuntur quibusdam repellat modi praesentium dolore sapiente tempora aliquam eveniet vel? Eos voluptate recusandae veritatis.
+       Consectetur id quod ipsum non architecto earum vitae ea amet, atque aliquid. Soluta impedit consequatur ipsum minima cupiditate sint, doloribus enim est. Accusamus alias ad quo illo modi laborum optio.
+    </p>
+
+    <input type="text" placeholder="enter the name">
+</body>
+</html>

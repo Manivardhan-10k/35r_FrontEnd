@@ -1,0 +1,59 @@
+selectors:
+it specifies what elements is to be styled 
+
+simple selectors 
+*  -- astreik
+
+id 
+
+class 
+
+element  (p,div)
+
+grouping selector 
+h1,h2,h3,h4,h5,h6{
+
+}
+
+
+
+
+
+combination selectors 
+descendant selector
+parent child{
+
+}
+
+
+
+child selector
+gp > p > c
+
+div>p
+
+
+adjacent sibling selector 
+div+p
+
+
+general sibling selector
+div~p   tilde
+
+
+
+
+atrribute selectors 
+ele[att="value"]
+
+
+
+pseudo class selectors
+ele:hover
+ele:active
+ele:visited
+
+Link Visited Hover Active
+
+
+pseudo elements selectors

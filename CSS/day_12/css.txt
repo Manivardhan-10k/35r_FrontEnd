@@ -1,0 +1,61 @@
+CSS 
+
+cascading styling sheets 
+
+
+
+cascading:
+cascading is the flow 
+
+styling
+we are defining the styles 
+
+
+sheets:
+where the styling is defined
+
+
+
+
+CSS 
+to add color to your file
+
+
+
+styling can be done in 3 ways:
+inline-style 
+the styling is done in the same tag
+    <h1 style="color:coral;font-size: 200px;">CASCADING STYLING SHEETS</h1>
+
+internal-styling 
+it is defined in the head section of html document 
+head-->style 
+selector{
+    property:value
+}
+###if the value is defined we must end with ";"
+
+
+external-styling 
+we define the styles in a file with extension ".css"
+selector{
+    property:value;
+} 
+
+head section->link tag 
+link rel="stylesheet" href="./path"
+
+
+
+property:value
+
+
+
+order of preference 
+
+1.inline 
+2.internal 
+3.external
+
+
+preference can be overriden with "!important"

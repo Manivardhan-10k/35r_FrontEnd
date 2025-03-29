@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .container h1{
+            color:lawngreen
+        } */
+
+        /* div>p {
+            color: lawngreen
+        } */
+
+
+        p+h1{ 
+            text-decoration: line-through;
+        }
+        p~h1{    
+            color:chocolate
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>this works based on the relation between elements</h1>
+    <h6>descendant</h6>
+    <h6>sibling</h6>
+    <!-- <div>
+        <h1>heading
+            <p>para from heading</p>
+        </h1>
+
+    </div> -->
+     
+
+    <div>
+        <p>para from div </p>
+        <h1>first sibling</h1>
+
+        <h1>second sibling</h1>
+        <div>
+            <h1>{nested para}</h1>
+        </div>
+        
+
+        <h1>last sibling</h1>
+        
+    </div>
+
+</body>
+
+</html>

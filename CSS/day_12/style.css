@@ -1,0 +1,12 @@
+*{
+    background-color: cadetblue;
+}
+/* color-range0-255 */
+#tag_line{
+    font-size: 75px;
+    color:rgba(1,100,0,1) !important 
+}
+p{
+    color:darkorange !important;
+    border: 10px double rgb(199, 19, 19);
+}

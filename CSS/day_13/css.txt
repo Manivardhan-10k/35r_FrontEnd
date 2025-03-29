@@ -1,0 +1,60 @@
+CSS:
+what?
+why?
+how?
+inline  
+internal
+external 
+
+order of priority:
+inline 
+internal
+external 
+
+
+!important 
+
+font size:
+text-decoration:
+font-family 
+color:
+border:
+
+
+
+units:
+nm
+mm
+cm
+m 
+km
+
+
+absolute :
+px
+mm
+cm
+in 
+
+relative 
+percentages 
+vh 
+vw 
+em
+rem
+
+
+
+
+relative units 
+
+% -- relative to the screen
+
+em
+font size is calculated based on the parent element font size 
+default value is 16px
+
+
+rem:
+font size is calculated based on the root element(html) font size
+default is 16px

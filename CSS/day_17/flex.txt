@@ -1,0 +1,34 @@
+
+
+
+container:
+display:flex 
+##flex is one dimensional 
+#arrange in either row or column
+
+#jusify-content 
+#it control the content on x-axis(row/horizontal)
+
+#align-content
+#it controls the content in y-axis(veritcal/columns)
+
+
+flex-wrap:
+flex-direction:row 
+column
+row-reverse 
+column-reverse
+
+items:
+
+flex-shrink:
+it defines the element to be compressed or not
+
+
+flex-grow:
+it defines how much the element should grow based on the available space 
+
+
+
+flex-basis:
+it defines how much space the element should occupy by default

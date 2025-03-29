@@ -1,0 +1,60 @@
+txt properties 
+back ground 
+units 
+absolute -- mm cm in px 
+relative units -- % , vw ,vh , em ,rem 
+
+<h1 font-size=100px>  ##1em ==20px 
+<p font-size=2em> </p>##32   ##40px
+</h1> 
+1em =16px
+
+
+rem --> is calculated from the root element (html)
+
+
+
+<html font-size=150px>
+h1>p>p>div font-size=3rem   #450px
+
+1em =16px
+
+
+
+
+Agenda:
+table
+
+border 
+
+width
+style 
+color 
+border: width style color
+
+
+radius 
+
+
+
+shorthand notation 
+border-radius : left top right bottom  (clockwise direction)
+border-radius: left- right   top-bottom
+
+boxmodel:
+it is a visual representation of html tag and its styling 
+
+
+content:
+it shows the width and height of the element 
+
+padding:
+it shows sapce content and border 
+
+border:
+the outer part of the element 
+
+margin:
+is the space between the two element 
+
+

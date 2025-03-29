@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .items img{
+            height: 200px;
+            width:250px;
+        }
+        .items{
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+        }
+
+        .items>div{
+            padding:15px;
+            /* border: 1px solid black; */
+            text-align: center;
+            border-radius: 15px;
+            width:250px;
+            box-shadow: -2px -8px  5px rgb(7, 19, 79);
+        }
+
+        .items button{
+            background-color: #ffffff;
+            height:35px;
+            border-radius: 10px;
+        }
+
+        h1{
+            text-align: center;
+            text-decoration: underline;
+            margin-bottom: 50px;
+            color: green;
+        }
+
+        .items p{
+            font-style: italic;
+        }
+
+
+         .image>img{
+
+            height: 50px;
+            width:50px;
+            border-radius: 150px;
+         }
+         .image{
+            display: flex;
+         }
+
+    </style>
+</head>
+<body>
+    
+
+      <div class="categories">
+        <h1>our best categories</h1>
+        <div  class="items">
+            <div>
+                <img src="https://s3-alpha-sig.figma.com/img/08aa/8731/6bda7f903313371dda012fac94b1cb74?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=rYc1~u03pzOZl9cYNw2v3j1ZlMr3QewPoBn7AGAuconk~UWDUr-ZWqVsO2kuPAQ7pgBB2tg4Lcz6ekU5RbOuamKIWP~Un7JFcHbEoouB5veymJDNtDa3MhDtdsCetu7KjSdNDsCVwfcgqCkAKgOM8x4IOSPAxkECFyUKCjK2BckeDRhY6KqKL4wNMLq4J-gkLMcVFRiCY13fA90rbBMvnrdSc3s0DYidkTv~MlyZqkUDKyNtCRiIMkAcQE2tKny0ZjKvWt7ZNk0-oNZvXLkD3drY9LvKid-sE-nwCxAGUvjMplykaxPxr3FaZefY~M65uqb-60rQeOwRVJvCQ6oYWQ__" alt="">
+                <h3>vegetables</h3>
+                <p>purchasing from select family of farmers</p>
+                <button>ORDER NOW</button>
+            </div>
+            <div>
+                <img src="https://s3-alpha-sig.figma.com/img/1341/5158/9fdaa7de5792cd432e8cf8a56b7547eb?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=kbxIbM6UUrPPHHGLKMoJcIuH5xWEUURHO0KLIgI3Im8vl36Xt6AhXNEzDFjE6xrzgK5UbDHExtJfSEtXHWxuxDEUoXWzG8VfeOgSPpYrBiz8g21wR~jTmdfjUrvfpfKGJpTG6aAzTwKlqr8bpqCjB-uQfQaffZAM07Q05uBGJ8-GWF4Joq4NR8Ua-2O-2aWyxYPUQntGa5aqC6VkWq76uzmEPyC-2r7k~NlEEHq2QlCrlVK81qpup~hzV3t-rW~-8ra6lwmJ0bL7T4erg5Ivz9dk6JvjEK2hMKLPoLJO5ublaHsxelDYEYUtb8~gAb~KOsTvl4we5zGw9FF0uiy9bA__" alt="">
+                <h3>fruits</h3>
+                <p>purchasing from select family of farmers</p>
+  
+                <button>ORDER NOW</button>
+            </div>
+            <div>
+                <img src="https://s3-alpha-sig.figma.com/img/e7b8/679d/1b1c4c536a17a565f424a5911ce6c0a7?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=e~O8cB1q-1woIaU0FjpyNgYSpDwrzRtc2QDtnVecJj4sXnX6HlCUKijfTS3MM~A5de6Q67JbB2LaYHN26d0tm96ofH7WwdguSEecsBkFqBwZkN0~Q8vzwHCBG8MhGAhCzH1lXB8ZrPdmf-t~F1VnTfmAwZQUTMa5JwjZTJwSeMkZXIWMCgnVAXzb9t7JYZ2jCQTjtdZ~jvtoYYPqY4TNdT7m37H-s6xqrAe5SN40rcJl~qseAfytctlnjn94xg0B3kPhNVZG5c-7bhXLnQ-bPO7BDVAXoIT9rCECQVoIV~4N2qL-XhWxxQFUILr5l-dWwgefijYJD078Fiygg~WwZg__" alt="">
+                <h3>salads</h3>
+                <p>purchasing from select family of farmers</p>
+                <button>ORDER NOW</button>
+            </div>
+
+        </div>
+      </div>
+    
+
+      <!-- <div class="image"><img src="https://s3-alpha-sig.figma.com/img/e7b8/679d/1b1c4c536a17a565f424a5911ce6c0a7?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=e~O8cB1q-1woIaU0FjpyNgYSpDwrzRtc2QDtnVecJj4sXnX6HlCUKijfTS3MM~A5de6Q67JbB2LaYHN26d0tm96ofH7WwdguSEecsBkFqBwZkN0~Q8vzwHCBG8MhGAhCzH1lXB8ZrPdmf-t~F1VnTfmAwZQUTMa5JwjZTJwSeMkZXIWMCgnVAXzb9t7JYZ2jCQTjtdZ~jvtoYYPqY4TNdT7m37H-s6xqrAe5SN40rcJl~qseAfytctlnjn94xg0B3kPhNVZG5c-7bhXLnQ-bPO7BDVAXoIT9rCECQVoIV~4N2qL-XhWxxQFUILr5l-dWwgefijYJD078Fiygg~WwZg__" alt="">
+    
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi molestiae quaerat fuga perspiciatis ipsum placeat esse harum, quae necessitatibus voluptatibus in tempora veritatis illo quidem! Commodi vero molestias non placeat.</p></div> -->
+
+
+
+</body>
+</html>

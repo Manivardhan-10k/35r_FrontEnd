@@ -1,0 +1,38 @@
+colors:
+name
+rgb/rgba
+hex code
+hsl/hsla 
+
+
+box model
+content
+padding 
+border
+margin
+
+
+display:
+display:block/inline/flex/grid
+
+flexible container/layout 
+
+
+
+
+FLEXBOX:
+it helps to arrange the elements in either row or column (1-dimensional)
+
+
+1.container 
+2.items  
+
+
+
+row 
+justify-content : start/end/center/space-evenly/space-between/space-around
+
+
+
+vertical:
+align-content:start/end/center/space-evenly/space-between/space-around

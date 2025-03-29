@@ -1,0 +1,43 @@
+selectors
+simple 
+*
+id 
+class
+ elements
+grouping
+
+
+combination 
+descedant  div p 
+child      div>p 
+adjacent   p+h1 
+general    p~h1
+ 
+
+
+
+
+attribute 
+
+elements[att="value"]
+
+
+pseudo 
+  class   "  : "
+  :link
+  :visited 
+  :hover 
+  :active
+
+
+
+
+  elements
+
+  ::before 
+  ::after 
+  ::first-letter
+  ::first-line 
+  ::selection
+  ::placeholder
+  ::marker

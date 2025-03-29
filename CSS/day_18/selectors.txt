@@ -1,0 +1,63 @@
+item-properties 
+order 
+flex-grow :0
+200px 
+it will occupy the extra empty space based on the value
+
+flex-shrink :1
+200px 
+it defines whether the element should reduce/compress 
+
+flex-basis: 200px
+to define how much space the element should occupy
+
+
+flex: 0 1 200px 
+
+
+
+
+Selectors:
+it specifies what element needs to be styled
+
+
+Simple Selectors
+
+#  -- id selector 
+
+.  --class selector 
+
+* -- universal selector 
+
+p ---element selector
+
+h1,p,div  --- grouping selector
+
+
+combination:
+
+descendant selector 
+
+div  p ->
+
+
+child selector 
+ div>p{}
+
+
+sibling selector:
+
+
+
+attribute Selectors
+element[attribute="value"]
+
+
+
+pseudo class
+
+
+
+
+
+
