@@ -1,0 +1,86 @@
+selectors:
+
+name:
+id  :
+it helps to select or identify the tags uniquely 
+# reprsented 
+
+class:
+it helps to select the tags collectively
+. 
+
+bookmarking:
+
+it helps to navigate to a specific part of the page 
+
+a href="#id"
+
+
+<id="">
+
+
+
+semantic HTML:
+
+semantic tags:
+header section
+
+headings 
+nav links 
+
+
+
+body section:
+
+
+
+footer section
+
+
+SEO:
+search engine optimisation
+
+
+web crawlers
+
+
+
+
+header 
+nav 
+section 
+article 
+aside 
+footer 
+semantic elements    
+
+div 
+span
+non semantic 
+
+
+
+selectors
+id-#
+class-. 
+
+bookmarking:
+a  
+id=""
+
+
+semantic html 
+header 
+nav 
+section
+article 
+aside 
+footer 
+
+
+non semantic 
+div --block level
+span -- inline
+
+
+

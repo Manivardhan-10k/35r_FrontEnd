@@ -1,0 +1,132 @@
+pl 
+python
+java 
+c 
+c++
+php
+r 
+
+
+Fe
+
+html :
+it gives the structure to the web page 
+
+
+
+css :
+it provides the styling
+
+
+
+js :
+it makes the web pages dynamic
+
+
+
+extensions:
+it defines the type of content
+
+
+
+
+
+
+
+html was invented Tim Berners Lee
+
+html 
+hyper-text markup language
+
+
+structure of html 
+<html>-->opening tag
+<head>--->information for the browser
+</head>
+
+<body>--->visible content for webpage
+</body>
+
+
+</html>--->closing tag
+
+
+
+
+
+<!DOCTYPE html>
+Doc Type Declaration
+it defines the browser to run it as the latest version of html(5) 
+
+
+
+Quirks mode:
+
+
+
+
+
+
+content is written in tags 
+
+
+text
+images 
+buttons 
+links 
+videos
+animations
+input  
+
+
+
+multimedia 
+
+
+META:
+
+DATA ABOUT DATA
+
+
+
+
+
+
+
+
+
+
+
+
+
+Restaurant Name 
+about
+contact 
+
+Menu:
+items 
+veg non-veg  beverages desserts sweets
+
+
+
+
+
+
+newpaper name 
+h1--->
+
+h2->
+
+nested tags
+
+
+
+
+
+
+
+
+
+
+
+

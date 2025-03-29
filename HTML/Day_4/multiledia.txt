@@ -1,0 +1,42 @@
+multimedia:
+
+images 
+src 
+alt-> when the image not available
+height
+width
+
+
+audio
+src 
+controls 
+title -->only when we hover on it
+autoplay 
+muted
+
+
+
+
+
+video
+src
+controls
+poster 
+autoplay 
+muted
+height 
+width
+
+
+
+plain text 
+table 
+lists 
+
+
+iframe:  inline-frame
+
+***embed  /embed 
+
+
+

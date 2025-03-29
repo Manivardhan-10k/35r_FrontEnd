@@ -1,0 +1,21 @@
+html -hyper text markup language ,css ,js
+
+why?
+to create static webpages 
+
+
+how?
+syntax: 
+
+tags -->price tag,hash tag  
+
+
+browser 
+tags 
+
+doctype ---> to declare the type of html we are using to the browser 
+<html> 
+<head></head> 
+<body>
+</html>
+

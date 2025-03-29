@@ -1,0 +1,17 @@
+legend tag 
+html entities :
+
+they are special character or code to display symbols
+
+&nbsp-->non breaking space
+
+meta 
+
+del 
+abbr 
+marquee 
+strong 
+em 
+ins 
+link -->favicon
+

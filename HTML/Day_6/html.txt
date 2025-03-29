@@ -1,0 +1,36 @@
+selectors 
+
+bookmarking 
+
+
+seo
+sematic html 
+semantic 
+non semantic
+
+
+
+
+input 
+text 
+password 
+email 
+number
+file 
+checkbox 
+radio 
+select--->option 
+
+button ->submit 
+button ->reset
+
+
+
+type 
+automcomplete 
+required
+readonly 
+placeholder 
+value
+checked 
+name->
