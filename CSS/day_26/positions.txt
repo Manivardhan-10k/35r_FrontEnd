@@ -1,0 +1,8 @@
+positions 
+#they are used to arrage the elements 
+
+1. static  --default position for the elements
+2. fixed   -- to make the elements fixed at a specific position
+3. sticky  --
+4. absolute --
+5. relative 

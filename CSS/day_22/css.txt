@@ -1,0 +1,19 @@
+flex properties 
+pseudo selectors
+box-shadow 
+margin 
+padding 
+
+
+images:
+shape-outside :
+clip-path: 
+float:
+
+object-fit :
+contain
+cover
+fill
+none
+scale-down
+

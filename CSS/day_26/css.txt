@@ -1,0 +1,17 @@
+Grid 
+
+it is a 2 dimentional layout 
+it is used to arrage the elements in row and columns 
+
+
+1. container 
+2. elements 
+   grid template rows : 
+   grid template columns:  20px 20px 
+
+
+   grid template areas 
+
+   
+
+

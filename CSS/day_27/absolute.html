@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hover Reveal</title>
+    <style>
+        body {
+            padding: 200px;
+        }
+
+        .container {
+            position: relative;
+            background-color: brown;
+            padding: 20px;
+        }
+
+        .wrapper {
+            position: relative;
+            /* display: inline-block; */
+        }
+
+        .exp {
+            visibility: hidden;
+            position: absolute;
+            top: -20px;
+            left: 30px;
+            background-color: aquamarine;
+            color: green;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        .wrapper:hover .exp {
+            visibility: visible;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="wrapper">
+            <p id="heading">CSS</p>
+            <p class="exp">CASCADING STYLING SHEETS</p>
+        </div>
+
+        <p>This is the second para in the CSS</p>
+        <p>This is the third line of doc</p>
+
+        <p><abbr title="CASCADING STYLING SHEETS">CSS</abbr></p>
+        <p>PARA GRAPH ON THE HTML PAGE</p>
+        <p>PARA GRAPH ON THE HTML PAGE</p>
+        <p>PARA GRAPH ON THE HTML PAGE</p>
+        <p>PARA GRAPH ON THE HTML PAGE</p>
+        <p>PARA GRAPH ON THE HTML PAGE</p>
+    </div>
+</body>
+
+</html>

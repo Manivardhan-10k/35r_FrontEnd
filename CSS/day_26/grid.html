@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document
+
+    </title>
+        <style>
+            .container {
+                display: grid;
+                grid-template-columns:repeat(4,1fr) ;
+                grid-template-rows:repeat(5,1fr) ;
+                height: 500px;
+            }
+            .sidebar2{
+                /* grid-row-start: 2;
+                grid-row-end: 5; */
+                grid-row: 2/span3;
+                grid-column: 4;
+                background-color: aqua;
+            }
+           .span{
+            margin-top: 10px;
+           } 
+
+           #para{
+            position: absolute;
+            top:0px;
+            left:100px;
+           }
+
+        </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">header</div>
+        <div class="footer">footer</div>
+        <div class="aside">aside</div>
+        <div class="sidebar1">side1</div>
+        <div class="sidebar2"><p class="span">side2</p>
+        <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni velit at eligendi labore atque quisquam cum placeat itaque ut est? Est quae neque culpa quo reiciendis? Reiciendis delectus eos soluta!</p></div>
+    </div>
+</body>
+
+</html>

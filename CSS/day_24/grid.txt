@@ -1,0 +1,21 @@
+Grid:
+it is a two dimentional layout to arrange the elementsv 
+
+
+container  
+display :grid
+
+
+content
+
+
+grid template areas: 
+
+"space space space"
+"sp2   .     sp2 "
+.item{
+    grid-area:space
+}
+
+repeat(3, minmax(100,250px))
+

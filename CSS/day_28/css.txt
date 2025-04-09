@@ -1,0 +1,16 @@
+postions 
+
+Absolute:
+
+
+
+modals
+
+
+
+fixed:
+it is fixed at a certain position  
+
+
+
+sticky

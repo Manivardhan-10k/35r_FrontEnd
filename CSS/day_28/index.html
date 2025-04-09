@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .container{
+        display: inline-block;
+    }
+
+    .child {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+    position: absolute;
+    width:200px;
+    height:300px;
+    overflow: hidden;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top:30px
+}
+
+.container:hover .child {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+</style>
+</head>
+
+<body>
+
+
+    <div class="container">
+
+        <p>CSS</p>
+        <div class="child">
+            <img src="./download (1).png" alt="" width="100" height="100">
+            <p>CSS stands for Cascading Style Sheets. It’s a stylesheet language used to describe the look and
+                formatting of a document written in HTML.</p>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab iusto alias cum ex? Dolores, culpa eaque. Nostrum quis aliquid expedita ducimus doloribus enim, sequi voluptatem, odio perferendis, temporibus veniam? Fugit.
+        Quibusdam possimus aliquam, nesciunt facilis deleniti ipsam autem sunt quas quo quae, id veritatis! Totam, deleniti at exercitationem vel dicta dolores dolor adipisci provident sit aliquam impedit omnis ut vero.
+        Magni cupiditate libero, autem tenetur dolorum maxime provident eum perferendis neque consequuntur pariatur! Sapiente aperiam deleniti ea cumque consequatur cupiditate quam debitis! Perferendis provident quasi quis iure voluptate maxime ut!</p>
+    </div>
+
+</body>
+
+</html>

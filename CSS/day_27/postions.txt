@@ -1,0 +1,13 @@
+postions :
+they are used to define the postion of the html elements 
+
+
+1.Static -- default 
+
+2.  relative -
+ 
+3.absolute 
+
+4. fixed 
+
+5.sticky

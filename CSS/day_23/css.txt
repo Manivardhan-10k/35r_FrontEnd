@@ -1,0 +1,33 @@
+float :
+shape-outside :
+clip-path:  
+
+
+
+filters:
+brightness 
+contrast 
+opacity
+greyscale 
+invert 
+sepia
+saturation
+drop-shadow
+
+
+object-fit :
+contain 
+cover 
+fill 
+none 
+scale-down 
+
+
+
+
+
+GRID:
+it is a two dimensional structure to arrange the elements
+
+
+fr-fraction unit
