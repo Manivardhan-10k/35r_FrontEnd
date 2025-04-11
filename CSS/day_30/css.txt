@@ -1,0 +1,35 @@
+Gradient:
+
+linear 
+line by line
+
+radial 
+circle, ellipse 
+
+
+conic
+cone shape
+
+
+repearing-linear-gradient
+
+
+
+
+transitions:
+
+
+transition-property
+
+transition-duration
+
+transition-timing-function 
+
+transition-delay
+
+
+
+
+Animation:
+
+@keyframes

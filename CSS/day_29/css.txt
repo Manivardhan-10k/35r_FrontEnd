@@ -1,0 +1,30 @@
+positions:
+static 
+
+absolute:
+it is completely removed from the document flow
+relative :
+its original space will remained the same
+
+
+
+fixed:
+it is fixed at the specified position
+sticky:
+unitll the specified position is reached it acts normally 
+after that it is fixed
+
+
+
+visibility:
+
+
+
+
+gradients:
+
+-> linear gradient 
+
+->radial gradient 
+
+->conic gradient
