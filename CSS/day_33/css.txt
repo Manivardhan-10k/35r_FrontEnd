@@ -1,0 +1,29 @@
+media queries:
+to create a responsive layout/design 
+
+
+screen size: 
+
+sm -mobile  460px
+md -tablets 768px
+lg - laptop  1024px 
+
+
+orientation:
+protrait- when the height is greater than the width
+landscape- when width is greater than height
+
+
+
+
+overflow:
+the context exceeding the container  
+
+visible  --default 
+hidden:  
+scroll: 
+
+
+
+box-model:
+

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul{
+            display: flex;
+            justify-content: space-evenly;
+            background-color: black;
+            color:wheat;
+            list-style: none;
+
+
+        }
+
+
+        @media (min-width:768px){
+
+            ul{
+                background-color:white ;
+                color:blue
+            }
+
+        }
+
+        @media (max-width:767px){
+            ul{
+                /* display: flex; */
+                flex-direction: column;
+            }
+        }
+
+
+        @media (max-width:460px){
+            li{
+                font-size: 50px;
+            }
+        }
+
+
+        @media (min-width:1024px) and (max-width:1279px){
+            body{
+                margin:0;
+                background-color: aqua;
+                height:100vh;
+            }
+
+            ul{
+                display: grid;
+                grid-template-columns: repeat(5,1fr);
+                grid-template-rows: repeat(3,1fr);
+            }
+
+
+        }
+        /* @media ( max-width:1279){
+            body{
+                margin:0;
+                background-color: aqua;
+                height:100vh;
+            }
+
+            ul{
+                display: grid;
+                grid-template-columns: repeat(5,1fr);
+                grid-template-rows: repeat(3,1fr);
+            }
+
+        } */
+
+        @media (max-width:350px) {
+            body{
+                display: none;
+            }
+            
+        }
+
+        @media (min-width:1024px) {
+        p{
+            font-size: 100px;
+        } 
+        }
+        @media (min-width:768px) {
+        p{
+            font-size: 75px;
+        } 
+        }
+        @media (min-width:460px) {
+        p{
+            font-size: 50px;
+        } 
+        }
+
+
+    </style>
+
+
+
+</head>
+<body>
+<!-- 
+    <nav>
+        <ul>
+            <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>
+            <li>item4</li>
+            <li>item5</li>
+            <li>item6</li>
+            <li>item7</li>
+            <li>item8</li>
+            <li>item9</li>
+            <li>item10</li>
+            <li>item11</li>
+            <li>item12</li>
+            <li>item13</li>
+            <li>item14</li>
+            <li>item15</li>
+        </ul>
+    </nav> -->
+
+
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente reprehenderit et ducimus itaque impedit id, quas maxime fuga quasi saepe. Non soluta hic id aspernatur itaque molestiae nobis, magni obcaecati!</p>
+    
+</body>
+</html>

@@ -1,0 +1,53 @@
+CSS styling:
+inline styling:
+<p  style="property:value">  
+
+
+internal:
+head 
+style
+p{
+    property:value
+}
+/style 
+
+
+external:
+.css file 
+link rel="stylesheet" href="path" 
+
+
+
+inline>internal>external 
+
+
+ can be changed using important keyword
+
+
+
+
+ selectors:
+simple selectors 
+tagname /id/class
+combination 
+child 
+sibling -adjacent/general
+descendant 
+
+
+
+
+attribute selectors
+pseudo class/elements
+it is special state of the element
+
+
+id-1000 
+class-100 
+element-10
+
+
+
+display:
+flex : one dimentional
+grid : two dimentional

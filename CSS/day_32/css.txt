@@ -1,0 +1,49 @@
+TRANSITION:
+IS THE PROCESS OF CHANGE 
+
+
+
+
+animations :
+TO MAKE THE THINGS MOVE 
+TRANSFORM: 
+ 
+
+VALUES:
+TRANSLATE: TO MAKE ELEMENTS MOVE (X,Y)
+ROTATE: TO MAKE THE ELEMENTS ROTATE (X,y )
+SCALE:(1.0)  SCALE(X,Y)
+SKEW: TO MAKE THE ELEMENTS TILT 
+
+PERSPECTIVE: ANGLE OF VIEWING
+PRESERVE:3D
+
+
+
+@KEYFRAMES  IDENTIFIER{
+    FROM {} TO{}
+    0%{} -- 100%{}
+}
+
+
+
+MEDIA QUERIES:
+to make the webpages responsive
+
+
+
+mobile 
+tablets 
+laptops/desktops 
+
+
+
+
+
+
+
+
+
+
+
+

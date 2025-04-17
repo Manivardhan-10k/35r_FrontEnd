@@ -1,0 +1,7 @@
+Transitions:
+is the process of change
+
+transition-property 
+transition-duration
+transition-timing-function:
+transition-delay:

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>2D and 3D Transforms in CSS</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f4f4f4;
+      padding: 20px;
+    }
+    h2 {
+      margin-top: 40px;
+      color: #333;
+    }
+    .box {
+      width: 120px;
+      height: 50px;
+      margin: 10px;
+      display: inline-block;
+      line-height: 50px;
+      color: #fff;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    /* 2D Transforms */
+    .translate1 { transform: translate(50px, 30px); background: coral; }
+    .translate2 { transform: translate(-20px, 10px); background: teal; }
+
+    .scale1 { transform: scale(1.5, 1.5); background: darkorange; }
+    .scale2 { transform: scale(2, 0.5); background: slateblue; }
+
+    .rotate1 { transform: rotate(45deg); background: crimson; }
+    .rotate2 { transform: rotate(-30deg); background: forestgreen; }
+
+    .skew1 { transform: skew(20deg, 0deg); background: mediumvioletred; }
+    .skew2 { transform: skew(0deg, 15deg); background: mediumseagreen; }
+
+    .matrix1 { transform: matrix(1, 0.5, -0.5, 1, 30, 20); background: saddlebrown; }
+    .matrix2 { transform: matrix(1, 0, 0, 1, 50, 10); background: olive; }
+
+    /* 3D Transforms */
+    .preserve { perspective: 500px; transform-style: preserve-3d; display: inline-block; }
+
+    .rotateX1 { transform: rotateX(45deg); background: dodgerblue; }
+    .rotateX2 { transform: rotateX(-60deg); background: tomato; }
+
+    .rotateY1 { transform: rotateY(60deg); background: hotpink; }
+    .rotateY2 { transform: rotateY(-45deg); background: steelblue; }
+
+    .rotateZ1 { transform: rotateZ(45deg); background: goldenrod; }
+    .rotateZ2 { transform: rotateZ(-60deg); background: darkkhaki; }
+
+    .translateZ1 { transform: translateZ(50px); background: chocolate; transform-style: preserve-3d; }
+    .translateZ2 { transform: translateZ(-50px); background: darkcyan; transform-style: preserve-3d; }
+
+    .scaleZ1 { transform: scaleZ(2); background: lightcoral; transform-style: preserve-3d; }
+    .scaleZ2 { transform: scaleZ(0.5); background: indigo; transform-style: preserve-3d; }
+  </style>
+</head>
+<body>
+  <h1>CSS 2D and 3D Transform Examples</h1>
+
+  <h2>2D Transforms</h2>
+  <div class="box translate1">translate1</div>
+  <div class="box translate2">translate2</div>
+
+  <div class="box scale1">scale1</div>
+  <div class="box scale2">scale2</div>
+
+  <div class="box rotate1">rotate1</div>
+  <div class="box rotate2">rotate2</div>
+
+  <div class="box skew1">skew1</div>
+  <div class="box skew2">skew2</div>
+
+  <div class="box matrix1">matrix1</div>
+  <div class="box matrix2">matrix2</div>
+
+  <h2>3D Transforms</h2>
+  <div class="preserve">
+    <div class="box rotateX1">rotateX1</div>
+    <div class="box rotateX2">rotateX2</div>
+  </div>
+
+  <div class="preserve">
+    <div class="box rotateY1">rotateY1</div>
+    <div class="box rotateY2">rotateY2</div>
+  </div>
+
+  <div class="box rotateZ1">rotateZ1</div>
+  <div class="box rotateZ2">rotateZ2</div>
+
+  <div class="preserve">
+    <div class="box translateZ1">translateZ1</div>
+    <div class="box translateZ2">translateZ2</div>
+  </div>
+
+  <div class="preserve">
+    <div class="box scaleZ1">scaleZ1</div>
+    <div class="box scaleZ2">scaleZ2</div>
+  </div>
+</body>
+</html>
