@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pure CSS Parallax Website</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      font-family: Arial, sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    .parallax {
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 3em;
+      text-align: center;
+      padding: 20px;
+      text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+    }
+
+    .section {
+      padding: 60px 20px;
+      text-align: center;
+      font-size: 1.5em;
+      background-color: #f4f4f4;
+    }
+
+    /* Background Images */
+    #p1 {
+      background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80');
+    }
+
+    #p2 {
+      background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1400&q=80');
+    }
+
+    #p3 {
+      background-image: url('https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=1400&q=80');
+    }
+  </style>
+</head>
+<body>
+
+  <div class="parallax" id="p1">
+    Welcome to Nature
+  </div>
+
+  <div class="section">
+    <p>This is a simple section between parallax backgrounds. You can write anything here.</p>
+  </div>
+
+  <div class="parallax" id="p2">
+    Explore the Ocean
+  </div>
+
+  <div class="section">
+    <p>Use sections like this one to explain your content or add interactive elements.</p>
+  </div>
+
+  <div class="parallax" id="p3">
+    Adventure Awaits
+  </div>
+
+  <div class="section">
+    <p>End of the parallax scroll. Hope you enjoyed the view!</p>
+  </div>
+
+</body>
+</html>
