@@ -1,0 +1,72 @@
+Bootstrap:
+
+it is css framework:
+
+libraries:
+it is a collection of methods/functions 
+
+
+framework:
+it is a collection of libraries
+
+
+they are predefined:
+
+
+css:
+we create stylings for webpages: 
+
+login:
+
+label 
+input 
+label:pass 
+input 
+submit 
+
+
+download ---
+
+CDN -- content delivery network
+
+link 
+
+
+j-query: 
+
+
+
+Bootstrap works based on the classes 
+
+margin -m 
+padding -p 
+
+top-t 
+bottom-b 
+left (start)- s
+right (end)-e 
+horizontal -x 
+vertical -y  
+
+borders 
+border 
+
+
+radius:
+border-rounded 
+border-circle
+border-pill
+
+width:
+w 
+25
+50
+75
+100 
+
+grid system:
+12 columns 
+
+sm 
+md 
+lg

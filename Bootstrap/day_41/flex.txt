@@ -1,0 +1,26 @@
+
+containers
+Flex DIRECTION
+items 
+
+
+flex or grid is used to arrange the elements in the display 
+flex>>it is 1 dimension property x\y 
+
+
+
+
+GRID:
+it is 2 dimensional layout to arrange the elements  
+both x and y axis 
+
+
+
+position:
+we can specify the place of the elements 
+static--default 
+
+
+relative -- 
+
+

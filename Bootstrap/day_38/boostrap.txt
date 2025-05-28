@@ -1,0 +1,32 @@
+bootstrap:
+css framework 
+collection of libraries 
+
+style the web pages
+it has a predefined collection of templates
+
+bootstrap works on a 12 column based grid system
+sm 
+md 
+lg 
+
+it entorely works using classes
+text-sm 
+text-center ,start , 
+
+margin:P
+padding: P
+background:bg 
+border:border
+primary ,secondary success danger warning light dark info  
+
+
+
+
+display 
+flex 
+grid 
+block
+inline-block
+inline
+none

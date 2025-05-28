@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .item{
+            height: 100px;
+            width:150px;
+            background-color: blueviolet;
+        }
+
+        .container{
+        display: grid;
+        background-color: aquamarine;
+        /* grid-template-columns: 200px 200px 200px 200px 200px;
+        grid-template-rows: 200px 200px;
+        height: 750px;
+        justify-content: center;
+        align-content: center;
+        align-items: end;
+        justify-items: center; */
+
+
+        /* grid-template-areas: "header  header header header"
+                            "aside  section1  section1  section2"
+                            "aside  section1  section1  section2"
+                            "footer footer footer footer"; */
+
+        grid-template-columns:repeat(10, min-max(100px,1fr)) ;
+        grid-template-rows: repeat(3,100px);
+        }
+        .item1{
+             grid-area: header;
+        }
+        .item2{
+            grid-area: aside;
+            /* z-index: 100; */
+        }
+        .item6{
+            grid-area: aside;
+        }
+        .item3{
+            grid-area: section1;
+        }
+        .item4{
+            grid-area:section2 ;
+        }
+        .item5{
+            grid-area: footer;
+            
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="item item1">this is the div1</div>
+        <div class="item item2">this is the div2</div>
+        <div class="item item3">this is the div3</div>
+        <div class="item item4">this is the div4</div>
+        <div class="item item5">this is the div5</div>
+        <div class="item item6">this is the div6</div>
+
+    </div>
+    
+</body>
+</html>
