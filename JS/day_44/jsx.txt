@@ -1,0 +1,32 @@
+variables 
+
+
+var 
+let 
+
+const  
+
+
+redeclaration   -var 
+
+reassignment - var, let 
+
+
+hoisting:
+
+
+
+
+operator:
+it is a symbol that performs a operation on operands 
+
++ 
+2+3
+
+Arthematic:
++  -> addition 
+- ->subtraction
+* ->multiplication 
+**  -->exponential 
+/ ->division
+% --> remainder

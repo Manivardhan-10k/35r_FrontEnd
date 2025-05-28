@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="student_list">     <!--this is main div-->
+
+
+
+    </div>
+
+    <input type="text" name="" id="stu_name" placeholder="enter the name" required>
+    <input type="tel" name="" id="mob" placeholder="enter the mobile" required>
+    <input type="color" name="" id="fav_col">
+    <button onclick=handleSubmit()>Submit</button>
+
+
+
+
+    <script>
+
+        function handleSubmit(){
+            let s_name=document.getElementById("stu_name")
+            let s_mob=document.getElementById("mob")
+            let s_col=document.getElementById("fav_col")
+
+            if (s_name.value && s_mob.value && s_col.value){
+
+            
+
+            let record=document.createElement("div")
+            record.style.border="2px solid black"
+            record.style.margin="20px"
+            record.style.width="30%"
+
+
+            let p_name=document.createElement("p")
+            let p_mob=document.createElement("p")
+            let p_col=document.createElement("p")
+
+            p_name.innerText=s_name.value
+            p_mob.innerText=s_mob.value
+            p_col.innerText=s_col.value
+
+
+            record.append(p_name,p_mob,p_col) 
+
+            let main=document.getElementById("student_list")
+            main.append(record)
+
+            }
+            else{
+                alert("pls fill all the fields")
+            }
+
+
+
+
+        }
+
+
+
+
+    </script>
+    
+</body>
+</html>

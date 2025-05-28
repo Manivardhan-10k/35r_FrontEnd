@@ -1,0 +1,112 @@
+what is js?
+it is scripting/programming language 
+to make the webpages dynamic /interactive 
+
+how?
+chrome  v-8 
+firefox   spyder monkey 
+  chakra 
+
+
+variables in js?
+it is a container for storing values /data 
+we can assign a name to the container
+
+
+
+name=52 
+
+
+variable declaration 
+var 
+let  
+const  
+                       var            let            const
+
+redeclaration          yes            no               no
+
+reassignment           yes            yes              no 
+
+
+
+
+
+
+Hoisting:
+varible declaration
+
+
+
+var a
+
+a=100
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var a
+

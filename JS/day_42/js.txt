@@ -1,0 +1,129 @@
+HTML--hyper text markup language
+to build static page 
+
+CSS--Cascading styling sheets
+we style the static webpages
+
+Bootstrap:-- it is a css framewrok for styling 
+HTML 
+css 
+js (jquery)
+
+
+JS:
+javascript
+it is  a scripting language
+we can build dynamic webpages 
+
+.html 
+.css 
+
+<script></script>
+.js 
+
+
+code 1
+code 2---error
+code 3
+
+java--multi-threaded language 
+
+
+js- single threaded language 
+synchronous:  
+sync:  
+
+code 1    hi 2sec
+code 2  ---for (1-100000000) 2min
+code 3 hello 2sec
+
+scripting:
+it is  a code to atomate tasks
+
+
+programming language: 
+they are used to buld standalone application
+mob
+des
+
+it changes based on input 
+intrepeted  
+dynamic language
+
+
+h1 
+
+
+
+
+c ,c++c java
+
+int a 
+a="hi"  
+
+
+js,python
+a="hi"
+a=123
+a=""
+
+
+versatile:
+js 
+dynamic webpages  (presentation layer)
+react js
+vue js
+next  js
+
+
+node js 
+express js 
+
+three js 
+chart js 
+
+react native js 
+
+
+electron js 
+
+
+
+programming language:
+environment 
+
+
+v-8 engine  --chrome
+
+
+
+
+1995 
+net scapes
+brenden eich
+
+mocha 
+
+java
+javascript
+
+ECMA script:
+E-european 
+C-computers
+M-manufactures
+A-association 
+
+
+2011
+ryan dahl 
+node js
+
+
+
+
+
+v-8  -google 
+firefox  -- spyder monkey
+internet explorer  -chakra
+safari  -- core
+

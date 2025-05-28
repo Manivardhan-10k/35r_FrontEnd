@@ -1,0 +1,16 @@
+create 5 buttons 
+
+all_products
+
+men's
+
+wome's
+
+electronics
+
+jewelery
+
+
+
+filter -> each record filter  -> new array
+
