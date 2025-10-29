@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+        div{
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="./bulb_on.jpg" alt="" height="200px" width="150px">
+
+        <button onclick="handleChange()">Turn OFF </button>
+    </div>
+
+
+    <script>
+
+        function handleChange(){
+            let state=document.getElementsByTagName("img")[0]
+            let src_val=state.getAttribute("src")
+            console.log(state,src_val)
+            
+            
+            let light_switch=document.getElementsByTagName("button")[0]
+
+            if(src_val=="./bulb_on.jpg"){
+                state.setAttribute("src","./bulb_off.jpeg")
+                light_switch.innerText="Turn ON"
+                document.getElementsByTagName("body")[0].style.backgroundColor="black"
+                
+            }else{
+                state.setAttribute("src","./bulb_on.jpg")
+                light_switch.innerText="Turn OFF"
+                document.getElementsByTagName("body")[0].style.backgroundColor="blanchedalmond"
+            }
+        }
+    </script>
+</body>
+</html>

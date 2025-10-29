@@ -242,77 +242,46 @@ let products_data=[
 ]  
 
 
-
 let selected_products=[]
 
-function handleAllProducts(){
 
 
-    selected_products=products_data
+function handleAllProducts() {
+    selected_products = products_data;
     console.log(selected_products);
-    show_products_to_user()
-    
+    show_products_to_user();
 }
 
-
-
-function handleElectronics(){
-
-    selected_products=products_data.filter((val,ind,arr)=>{
-
-        return val.category==="electronics"
-    })
-     console.log(selected_products);
-     show_products_to_user()
-
-    
-     
-}
-
-
-
-function handleJewelery(){
-    selected_products=products_data.filter((val,ind,arr)=>{
-        return val.category==="jewelery"
-    })
+function handleElectronics() {
+    selected_products = products_data.filter(val => val.category === "electronics");
     console.log(selected_products);
-    show_products_to_user()
-    selected_products=[]
-    
-
-
+    show_products_to_user();
 }
 
+function handleJewelery() {
+    selected_products = products_data.filter(val => val.category === "jewelery");
+    console.log(selected_products);
+    show_products_to_user();
+}
 
+function show_products_to_user() {
+    let main_container = document.getElementById("main_div");
+        main_container.innerHTML = "";
 
-// let arr=[1,2,3,4,5,6,7,8,9,10]
+    selected_products.forEach(product => {
+        let prod_container = document.createElement("div");
 
-// let new_arr=[]
+        let id_ele = document.createElement("p");
+        let title_ele = document.createElement("h6");
+        let price_ele = document.createElement("p");
+        let img_ele = document.createElement("img");
 
-// new_arr=arr.filter((ele,ind)=>{
-//     return ele%2!==0
-// })
-// console.log(new_arr)
+        id_ele.innerText = product.id;
+        title_ele.innerText = product.title;
+        price_ele.innerText = product.price;
+        img_ele.src = product.image;
 
-
-
-function show_products_to_user(){
-    let main_container=document.getElementById("main_div")
-    selected_products.forEach((product,ind,arr)=>{
-       let prod_container= document.createElement("div")
-
-       let id_ele=document.createElement("p")
-       let title_ele=document.createElement("h6")
-       let price_ele=document.createElement("p")
-       let img_ele=document.createElement("img")  
-
-       id_ele.innerText=product.id 
-       title_ele.innerText=product.title 
-       price_ele.innerText=product.price 
-       img_ele.src=product.image
-
-       prod_container.append(id_ele,title_ele,price_ele,img_ele)
-       main_container.append(prod_container)
-
-    })
+        prod_container.append(id_ele, title_ele, price_ele, img_ele);
+        main_container.append(prod_container);
+    });
 }
